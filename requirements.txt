@@ -1,6 +1,7 @@
 aniso8601==9.0.1
 asgiref==3.4.1
 attrs==21.4.0
+autopep8==1.6.0
 beautifulsoup4==4.9.3
 blinker==1.4
 Brlapi==0.8.2
@@ -11,6 +12,7 @@ click==7.1.2
 colorama==0.4.4
 command-not-found==0.3
 configobj==5.0.6
+coverage==6.3.2
 cryptography==3.3.2
 cupshelpers==1.0
 dbus-python==1.2.16
@@ -58,6 +60,7 @@ pop-transition==1.1.2
 protobuf==3.12.4
 py==1.11.0
 pycairo==1.16.2
+pycodestyle==2.8.0
 pycups==2.0.1
 pydbus==0.6.0
 PyGObject==3.40.1
@@ -68,6 +71,8 @@ pyparsing==3.0.7
 pyRFC3339==1.1
 pyrsistent==0.18.1
 pytest==7.0.1
+pytest-cov==3.0.0
+pytest-flask==1.2.0
 python-apt===2.2.1pop0-1628521831-21.10-5dbe6cf
 python-dateutil==2.8.2
 python-debian===0.1.39ubuntu1
@@ -89,6 +94,7 @@ sqlparse==0.4.2
 stevedore==3.5.0
 systemd-python==234
 testresources==2.0.1
+toml==0.10.2
 tomli==2.0.1
 ubuntu-advantage-tools==27.6
 ubuntu-drivers-common==0.0.0

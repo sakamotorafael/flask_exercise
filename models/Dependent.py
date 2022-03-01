@@ -1,4 +1,4 @@
-from db_config import db
+from data.db_config import db
 
 class Dependent(db.Model):
     id = db.Column(db.Integer, primary_key=True)
