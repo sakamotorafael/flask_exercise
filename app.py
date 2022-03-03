@@ -1,5 +1,3 @@
-
-
 from flask import Flask
 
 
@@ -15,6 +13,7 @@ from models.Employee import Employee
 from models.Department import Department
 
 import controller.api.depts_controller
+
 
 
 if __name__ == '__main__':

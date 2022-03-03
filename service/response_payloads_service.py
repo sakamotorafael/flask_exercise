@@ -1,8 +1,9 @@
-from app import app
 import json
+from app import create_app
 
 from models.Department import Department
 
+app = create_app()
 
 def assembleDeptsJson():
     query = Department.query.all()

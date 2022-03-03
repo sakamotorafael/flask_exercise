@@ -17,14 +17,8 @@ def app() -> Flask:
 
 
 @pytest.fixture()
-def client(app):
-    '''test client'''
-    return app.test_client()
-
-
-@pytest.fixture()
 def runner(app):
-    '''test runner'''
+    '''Test runner'''
     return app.test_cli_runner()
 
 
@@ -35,9 +29,10 @@ def database(app):
     return SQLAlchemy(app)
 
 
-@pytest.fixture(scope="module")
+@pytest.fixture()
 def fill_database(database):
-    '''fill database'''
+    '''Fill database'''
     import models
     from data.add_data import execute
     execute(database, models)
+
