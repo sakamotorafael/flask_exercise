@@ -1,4 +1,3 @@
-from importlib.resources import Resource
 from flask_restx import Resource, Api
 from app import app
 from service.response_payloads_service import assembleDeptsJson, assembleEmployeesJson
